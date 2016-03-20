@@ -12,6 +12,7 @@ namespace ClassMarkerTesting.Tests
         {
             Console.WriteLine("LoginTest launched");
             new IndexPageActions().Login(Role.User);
+
         }
     }
 }
