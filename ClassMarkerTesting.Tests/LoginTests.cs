@@ -10,6 +10,7 @@ namespace ClassMarkerTesting.NUnitTests
         public void LoginTest()
         {
             new IndexPageActions().Login(Role.User);
+            //push
         }
     }
 }
