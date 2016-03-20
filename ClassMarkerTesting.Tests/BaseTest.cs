@@ -1,9 +1,8 @@
 ﻿using System.Configuration;
-using ClassMarkerTesting.SeleniumUtilities.PageActions;
 using NUnit.Framework;
 using OpenQA.Selenium;
 
-namespace ClassMarkerTesting.NUnitTests
+namespace ClassMarkerTesting.Tests
 {
     public class BaseTest
     {

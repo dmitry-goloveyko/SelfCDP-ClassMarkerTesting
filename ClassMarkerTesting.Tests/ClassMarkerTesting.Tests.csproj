@@ -7,8 +7,8 @@
     <ProjectGuid>{FD275923-4537-4D2E-A66F-E2A81BD8D084}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ClassMarkerTesting.NUnitTests</RootNamespace>
-    <AssemblyName>ClassMarkerTesting.NUnitTests</AssemblyName>
+    <RootNamespace>ClassMarkerTesting.Tests</RootNamespace>
+    <AssemblyName>ClassMarkerTesting.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
@@ -71,12 +71,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Users\Admins.xml" />
-    <Content Include="Users\Users.xml" />
+    <Content Include="Users\Admins.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Users\Users.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
   </ItemGroup>

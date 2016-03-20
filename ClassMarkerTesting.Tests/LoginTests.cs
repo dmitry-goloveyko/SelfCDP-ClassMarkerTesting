@@ -1,7 +1,7 @@
 ﻿using ClassMarkerTesting.SeleniumUtilities.PageActions;
 using NUnit.Framework;
 
-namespace ClassMarkerTesting.NUnitTests
+namespace ClassMarkerTesting.Tests
 {
     [TestFixture]
     public class LoginTests : BaseTest
@@ -10,9 +10,6 @@ namespace ClassMarkerTesting.NUnitTests
         public void LoginTest()
         {
             new IndexPageActions().Login(Role.User);
-            //push
-            //new
-            //new2
         }
     }
 }

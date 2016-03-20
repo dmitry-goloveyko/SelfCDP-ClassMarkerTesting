@@ -12,14 +12,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMarkerTesting.Utilitie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMarkerTesting.SeleniumUtilities", "ClassMarkerTesting.SeleniumUtilities\ClassMarkerTesting.SeleniumUtilities.csproj", "{49CFA10F-E37C-478A-BFA3-7484219C24C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMarkerTesting.Tests", "ClassMarkerTesting.Tests\ClassMarkerTesting.Tests.csproj", "{FD275923-4537-4D2E-A66F-E2A81BD8D084}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{947E8166-58AC-4E29-A602-640C2D69CEDA}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMarkerTesting.Tests", "ClassMarkerTesting.Tests\ClassMarkerTesting.Tests.csproj", "{FD275923-4537-4D2E-A66F-E2A81BD8D084}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
