@@ -12,6 +12,7 @@ namespace ClassMarkerTesting.Tests
         {
             Console.WriteLine("LoginTest launched");
             new IndexPageActions().Login();
+            Console.WriteLine("LoginTest finished");
         }
 
         [Test]
@@ -19,7 +20,7 @@ namespace ClassMarkerTesting.Tests
         {
             Console.WriteLine("LoginTest launched");
             new IndexPageActions().Login();
-            Assert.Fail("FailTest");
+            Assert.Fail("FailTest failed!!!!!");
         }
     }
 }
