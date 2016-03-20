@@ -14,5 +14,11 @@ namespace ClassMarkerTesting.Tests
             new IndexPageActions().Login(Role.User);
 
         }
+
+        [Test]
+        public void FailTest()
+        {
+            Assert.Fail("FailTest");
+        }
     }
 }
