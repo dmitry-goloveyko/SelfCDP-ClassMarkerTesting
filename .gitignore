@@ -1,0 +1,6 @@
+*.suo
+*.vspscc
+bin/
+obj/
+TestResults/
+packages/

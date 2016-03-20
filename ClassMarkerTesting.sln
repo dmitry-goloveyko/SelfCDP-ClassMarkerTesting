@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMarkerTesting.Core", "ClassMarkerTesting.Core\ClassMarkerTesting.Core.csproj", "{815EF16F-A3BC-41C0-AE76-0F7EEB2B0DA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMarkerTesting.Utilities", "ClassMarkerTesting.Utilities\ClassMarkerTesting.Utilities.csproj", "{E81591E1-D488-4335-8FF8-18B3AF6FBA53}"
+	ProjectSection(ProjectDependencies) = postProject
+		{815EF16F-A3BC-41C0-AE76-0F7EEB2B0DA1} = {815EF16F-A3BC-41C0-AE76-0F7EEB2B0DA1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMarkerTesting.SeleniumUtilities", "ClassMarkerTesting.SeleniumUtilities\ClassMarkerTesting.SeleniumUtilities.csproj", "{49CFA10F-E37C-478A-BFA3-7484219C24C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMarkerTesting.Tests", "ClassMarkerTesting.Tests\ClassMarkerTesting.Tests.csproj", "{FD275923-4537-4D2E-A66F-E2A81BD8D084}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{815EF16F-A3BC-41C0-AE76-0F7EEB2B0DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{815EF16F-A3BC-41C0-AE76-0F7EEB2B0DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{815EF16F-A3BC-41C0-AE76-0F7EEB2B0DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{815EF16F-A3BC-41C0-AE76-0F7EEB2B0DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E81591E1-D488-4335-8FF8-18B3AF6FBA53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E81591E1-D488-4335-8FF8-18B3AF6FBA53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E81591E1-D488-4335-8FF8-18B3AF6FBA53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E81591E1-D488-4335-8FF8-18B3AF6FBA53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49CFA10F-E37C-478A-BFA3-7484219C24C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49CFA10F-E37C-478A-BFA3-7484219C24C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49CFA10F-E37C-478A-BFA3-7484219C24C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49CFA10F-E37C-478A-BFA3-7484219C24C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD275923-4537-4D2E-A66F-E2A81BD8D084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD275923-4537-4D2E-A66F-E2A81BD8D084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD275923-4537-4D2E-A66F-E2A81BD8D084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD275923-4537-4D2E-A66F-E2A81BD8D084}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
