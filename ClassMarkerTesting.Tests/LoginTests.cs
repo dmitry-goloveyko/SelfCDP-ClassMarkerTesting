@@ -11,6 +11,7 @@ namespace ClassMarkerTesting.NUnitTests
         {
             new IndexPageActions().Login(Role.User);
             //push
+            //new
         }
     }
 }
