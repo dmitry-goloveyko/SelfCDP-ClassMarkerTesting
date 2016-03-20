@@ -1,4 +1,5 @@
-﻿using ClassMarkerTesting.SeleniumUtilities.PageActions;
+﻿using System;
+using ClassMarkerTesting.SeleniumUtilities.PageActions;
 using NUnit.Framework;
 
 namespace ClassMarkerTesting.Tests
@@ -9,6 +10,7 @@ namespace ClassMarkerTesting.Tests
         [Test]
         public void LoginTest()
         {
+            Console.WriteLine("LoginTest launched");
             new IndexPageActions().Login(Role.User);
         }
     }
