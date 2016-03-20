@@ -14,13 +14,5 @@ namespace ClassMarkerTesting.Tests
             new IndexPageActions().Login();
             Console.WriteLine("LoginTest finished");
         }
-
-        [Test]
-        public void FailTest()
-        {
-            Console.WriteLine("LoginTest launched");
-            new IndexPageActions().Login();
-            Assert.Fail("FailTest failed!!!!!");
-        }
     }
 }
