@@ -12,7 +12,7 @@ namespace ClassMarkerTesting.SeleniumUtilities.PageActions
 
     public class IndexPageActions : BasePageActions
     {
-        public void Login(Role role)
+        public void Login(Role role = Role.User)
         {
             var user = 
                 role == Role.Admin 
@@ -20,6 +20,12 @@ namespace ClassMarkerTesting.SeleniumUtilities.PageActions
                 : UserUtils.Users.First();
 
             var homePage = new IndexPage();
+
+            if (!Wait.Until(() => homePage.LoginInput.Displayed))
+            {
+                homePage.LoginWithoutCredsButton.Click();
+                return;
+            }
 
             homePage.LoginInput.Clear();
             homePage.LoginInput.SendKeys(user.Login);

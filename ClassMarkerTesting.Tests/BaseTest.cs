@@ -11,15 +11,20 @@ namespace ClassMarkerTesting.Tests
             get { return Core.Browser.BrowserDriver; }
         }
 
+        [TestFixtureSetUp]
+        public void TestFixtureSetUp()
+        {
+            Browser.Manage().Window.Maximize();
+        }
+
         [SetUp]
         public void SetUp()
         {
-            Browser.Manage().Window.Maximize();
             Browser.Navigate().GoToUrl(ConfigurationManager.AppSettings["ApplicationUrl"]);
         }
 
-        [TearDown]
-        public void TearDown()
+        [TestFixtureTearDown]
+        public void TestFixtureTearDown()
         {
             Browser.Close();
         }

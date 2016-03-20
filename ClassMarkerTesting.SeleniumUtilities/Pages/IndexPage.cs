@@ -14,6 +14,9 @@ namespace ClassMarkerTesting.SeleniumUtilities.Pages
         [FindsBy(How = How.CssSelector, Using = ".login-button")]
         public IWebElement LoginButton { get; set; }
 
+        [FindsBy(How = How.CssSelector, Using = ".register")]
+        public IWebElement LoginWithoutCredsButton { get; set; }
+
         [FindsBy(How = How.CssSelector, Using = ".login-error")]
         public IWebElement LoginError { get; set; }
     }

@@ -11,13 +11,14 @@ namespace ClassMarkerTesting.Tests
         public void LoginTest()
         {
             Console.WriteLine("LoginTest launched");
-            new IndexPageActions().Login(Role.User);
-
+            new IndexPageActions().Login();
         }
 
         [Test]
         public void FailTest()
         {
+            Console.WriteLine("LoginTest launched");
+            new IndexPageActions().Login();
             Assert.Fail("FailTest");
         }
     }
